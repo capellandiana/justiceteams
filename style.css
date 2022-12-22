@@ -6,7 +6,7 @@ h1{
     height: 75px;
     padding: 20px;
     margin: 200px;
-    border: black 1px solid;
+    border: black 7px solid;
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,7 +21,7 @@ h2{ display: inline-block;
      text-align:center;
     color:black;
     padding: 30px;
-    border: black 2px solid;
+    border: black 10px solid;
     margin: 200px;
   width: 300px; 
    }
@@ -51,12 +51,12 @@ h2{ display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-weight: bold;
    }
- 
    .flex-container {
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
+    gap: 5px;
   }
    .space-evenly { 
     justify-content: space-evenly; 
@@ -72,7 +72,7 @@ h2{ display: inline-block;
     font-weight: bold;
     font-size: 2em;
     text-align: center;
-    border: 5px solid black;
+    border: 7px solid black;
   }
   .logo{
     position:fixed;
@@ -81,6 +81,7 @@ h2{ display: inline-block;
       width: 100px;
       height: 110px;
      }
+
      .footerlinks {
       display: flex;
       align-items: center;
