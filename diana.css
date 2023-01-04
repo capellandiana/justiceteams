@@ -5,6 +5,24 @@
   box-sizing: border-box;
 }
 
+/* responsivness */
+@media only screen and (max-width:768px) {
+  html {
+    font-size: 10px;
+  }
+  .footerlinks {
+    overflow: auto;
+  }
+}
+@media all and (max-width:480px) {
+  .navbar .logo {
+    display: none;
+    margin: 0 auto;
+  }
+  
+}
+
+
 /* nav bar starts here  */
 .navbar {
   background: lightblue;
@@ -79,21 +97,6 @@ a:hover {
   opacity: 0.7
 }
 
-@media only screen and (max-width:768px) {
-  html {
-    font-size: 10px;
-  }
-  .footerlinks {
-    overflow: auto;
-  }
-}
-@media all and (max-width:480px) {
-  .navbar .logo {
-    display: none;
-    margin: 0, auto;
-  }
-  
-}
 
 /* hero image ends here  */
 .card .facts {
