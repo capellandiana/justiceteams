@@ -33,7 +33,7 @@ nav{opacity: 0.8;
    font-weight: bold;
  }
 
- h1{
+ .testimonials{
   background-color:lightblue;
   opacity: 0.8;
   color:Black;
@@ -41,6 +41,8 @@ nav{opacity: 0.8;
   height: fit-content;
   padding: 20px;
   margin: 200px;
+  position:relative;
+  z-index: -1;
   border: black 1px solid;
   margin-left: auto;
   margin-right: auto;
