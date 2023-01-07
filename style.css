@@ -25,9 +25,6 @@
   .footerlinks {
     overflow: auto;
   }
-  .flex-container .space-evenly{
-display: table-row;
-  }
 }
 
 h1{
