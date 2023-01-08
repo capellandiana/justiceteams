@@ -79,13 +79,13 @@ h2{ display: inline-block;
     text-align: center;
     border: 7px solid black;
   }
-  .logo{
+  /* .logo{
     position:fixed;
       height:auto;
       left:0px;
       width: 100px;
       height: 110px;
-     }
+     } */
    
   
 /*footer.css*/
