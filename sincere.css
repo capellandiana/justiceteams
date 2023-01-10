@@ -86,7 +86,7 @@ h2{ display: inline-block;
     border-radius: 10px; 
   } 
 
-  .Resources li {
+   /*.Resources li {
     display: inline-block; 
     margin: 10px; 
     padding: 20px; 
